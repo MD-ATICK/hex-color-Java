@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"rel="stylesheet"/>
+
+    <style>
+        #wrapper{
+            /* background: linear-gradient(90deg, rgba(4, 13, 53, 0.866) 0%, rgb(7, 48, 75) 50%, rgba(6, 19, 71, 0.88) 100%);          */
+               height: 713px;
+            display: flex;
+            align-items: center;
+           text-align: center;
+        }
+
+        .row{
+            justify-content: center;
+        }
+
+        .btn:hover{
+            color: white;
+            transform: scale(0.9);
+            transition: 0.15s;
+        }
+
+        .btn{
+            background-color: rgb(73, 55, 2);
+            color: white;
+            font-weight: 900;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            padding: 1rem 1.5rem;
+            margin-bottom: 1.5rem;
+            font-size: 20px;
+        }
+
+        .btn:focus{
+            box-shadow: none;
+            border: none;
+            outline: none;
+        }
+
+        h2{
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    
+    <div id="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <button class="btn" onclick="atickvai()">Code_Genarator</button>
+                    <h2 id="code" style="margin-left: 2rem;"></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<script src="hexcolor.js"></script>
+</body>
+</html>
